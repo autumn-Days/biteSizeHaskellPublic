@@ -1,6 +1,6 @@
 #  Capítulo 5
 
-## 5.1 Funções curry e aplicação parcial de funções
+## 5.1 Funções curry e funções parcialmente aplicadas
 
 ### 5.1.1 Intuição
 
