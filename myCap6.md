@@ -1,6 +1,6 @@
 #  Capítulo 6
 
-## 6.1 Funções curry e aplicação parcial de funções
+## 6.1 Funções curry e funções parcialmente aplicadas
 
 ### 6.1.1 Intuição
 
