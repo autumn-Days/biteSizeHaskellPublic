@@ -1,8 +1,8 @@
-#  Capítulo 5
+#  Capítulo 6
 
-## 5.1 Funções curry e funções parcialmente aplicadas
+## 6.1 Funções curry e aplicação parcial de funções
 
-### 5.1.1 Intuição
+### 6.1.1 Intuição
 
 Antes de te apresentar propriamente o que são as funções curry e como elas se comportam, gostaria que fizéssemos um pequeno exercício mental: suponha que, por algum motivo que foge da realidade do brasileiro moderno, você queira sacar dinheiro físico em um caixa eletrônico. Caso você não tenha vivido na época das cavernas, permita-me explicar como este procedimento funciona: tudo o que é necessário fazer é providenciar três informações simples ao caixa eletrônico.
 
@@ -71,7 +71,7 @@ Com isso podemos uma coisa muito simples:
         - Pois é, eu sei, à princípio, pode ser difícil de aceitar, mas você não deve se preocupar com este tipo de detalhe, pois isto é uma preocupação para o GHC e o GHCI.
         - Portanto, nós, programadores haskell, podemos confiar que o compilador conseguirá receber funções ditas _parcialmente aplicadas_ (ou seja, funções com um número de parâmetros insuficiente para produzir um output definitivo) e, ao longo das etapas de _currying_, conseguirá gerar o resultado final sem problemas
 
-## 5.2 Funções parcialmente aplicadas
+## 6.2 Funções parcialmente aplicadas
 
 A capacidade de poder trabalhar com funções incompletas, isto é, parcialmente aplicadas,  é algo intrinsecamente ligado a programação funcional então é pertinente que investiguemos mais atentamente este recurso.
 
