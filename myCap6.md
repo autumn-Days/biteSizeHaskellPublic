@@ -78,11 +78,11 @@ A capacidade de poder trabalhar com funções incompletas, isto é, parcialmente
 Para começarmos, suponha que você tenha a seguinte função
 
 ```haskell
-myPartiallyAppliedFun :: Num a => a -> a 
-myPartiallyAppliedFun = (+) 5
+partiallyAppliedFun :: Num a => a -> a 
+partiallyAppliedFun = (+) 5
 ```
 
-Perceba que a `myPartiallyAppliedFun` faz uso da função `+`, a qual possui a seguinte assinatura:
+Perceba que a `partiallyAppliedFun` faz uso da função `+`, a qual possui a seguinte assinatura:
 
 ```
 (+) :: Num a => a -> a -> a
@@ -94,25 +94,25 @@ Como vimos anteriormente, Esta assinatura poderia ser melhor descrita como:
 (+) :: Num a => a -> (a -> a)
 ```
 
-O que é interessante notarmos neste caso é que a assinatura de ```myPartiallyAppliedFun``` é exatamente igual a assinatura da função gerada por ```(+) a```, ou seja, `a -> a` e isto se deve justamente pelo fato de ```myPartiallyAppliedFun``` guardar o output gerado pela função parcialmente aplicada `(+) 5`.
+O que é interessante notarmos neste caso é que a assinatura de ```partiallyAppliedFun``` é exatamente igual a assinatura da função gerada por ```(+) a```, ou seja, `a -> a` e isto se deve justamente pelo fato de ```partiallyAppliedFun``` guardar o output gerado pela função parcialmente aplicada `(+) 5`.
 
-Sendo assim, para usarmos `myPartiallyAppliedFun` bastaria que fizéssemos:
+Sendo assim, para usarmos `partiallyAppliedFun` bastaria que fizéssemos:
 
 ```haskell
-myPartiallyAppliedFun 7
+partiallyAppliedFun 7
 >> 12
 ```
 
-E ao observarmos o tipo de ```myPartiallyAppliedFun 7``` notamos que ele tem a seguinte anotação de tipo (que costumamos chamar de "assinatura")
+E ao observarmos o tipo de ```partiallyAppliedFun 7``` notamos que ele tem a seguinte anotação de tipo (que costumamos chamar de "assinatura")
 
 ```haskell
-:t (myPartiallyAppliedFun 7)
-(myPartiallyAppliedFun 7) :: Num a => a
+:t (partiallyAppliedFun 7)
+(partiallyAppliedFun 7) :: Num a => a
 ```
 
-A ausência de setas significa meramente que ele não retorna informação alguma, portanto, está anotação de tipo tão somente denota que a expressão `(myPartiallyAppliedFun 7)` é ```Num```, ou seja, numérica.
+A ausência de setas significa meramente que ele não retorna informação alguma, portanto, está anotação de tipo tão somente denota que a expressão `(partiallyAppliedFun 7)` é ```Num```, ou seja, numérica.
 
-Note, porém, que, caso tentássemos chamar `myPartiallyAppliedFun` sem passar nenhum parâmetro a ela, ganharíamos um erro similar a este:
+Note, porém, que, caso tentássemos chamar `partiallyAppliedFun` sem passar nenhum parâmetro a ela, ganharíamos um erro similar a este:
 
 ```haskell
 <interactive>:y:x: error:
