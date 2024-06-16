@@ -124,7 +124,8 @@ Note, porém, que, caso tentássemos chamar `partiallyAppliedFun` sem passar nen
 
 Que nos diz, um tanto timidamente entre parênteses, que "talvez não tenhamos aplicado a função a um número suficiente de argumentos".
 
-
+> Observação: à título de simplificação, nos capítulos seguintes, o _currying_ será totalmente ignorado quando falarmos sobre as assinaturas das funções e só será relembrado quando for mais conveniente.
+ 
 ## Referências do capítulo
 
 1. Hudak, Paul; Peterson, John; Fasel, Joseph. A Gentle Introduction to Haskell 98. haskell.org, 1999, p. 10.
