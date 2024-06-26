@@ -245,6 +245,7 @@ ___
 ## Referências
 
 1. Apprenez Haskell Language, RIP tutorial, 2019, p. 109-110
+	- versão web: https://learntutorials.net/fr/haskell/ 
 1. Stotts, David. Overview of Lambda Calculus. Disponível em: https://www.cs.unc.edu/~stotts/723/Lambda/overview.html. Acesso em: 17/06/2024.
 
 ## Sugestões de leitura
