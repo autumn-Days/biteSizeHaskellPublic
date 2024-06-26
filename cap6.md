@@ -129,7 +129,6 @@ Que nos diz, um tanto timidamente entre parênteses, que "talvez não tenhamos a
 ## Referências do capítulo
 
 1. Hudak, Paul; Peterson, John; Fasel, Joseph. A Gentle Introduction to Haskell 98. haskell.org, 1999, p. 10.
-1. Apprenez la programmation fonctionnelle avec Haskell; 2.ed. Zeste de Savoir, 2019. p. 68
 1. Apprenez Haskell Language, RIP tutorial, 2019, p. 134  
 1. Sullivan, Bryan; Stewart, Don; Goerzen, John; O'reill2008.Real World Haskell, chapter 4 "Partial function application and currying"
 1. https://wiki.haskell.org/Currying
