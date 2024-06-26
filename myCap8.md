@@ -1,4 +1,4 @@
-# 8. Funções de alta ordem - pt. 3
+# 8. Funções de alta ordem - pt. 2
 
 ## 8.1 Introdução
 
