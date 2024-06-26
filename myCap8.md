@@ -162,9 +162,8 @@ As funções `takeWhile` e `dropWhile` podem ser entendidas como variações da 
 
 ## Referências
 
-1. Apprenez la programmation fonctionnelle avec Haskell; 2.ed. Zeste de Savoir, 2019. p. 61-62
-2. Thomson, Simon. Haskell - The craft of a functional programming language. 3ed. 247
+1. Thomson, Simon. Haskell - The craft of a functional programming language. 3ed. 247
 
-3. https://hackage.haskell.org/package/base-4.20.0.1/docs/Prelude.html#v:span
+1. https://hackage.haskell.org/package/base-4.20.0.1/docs/Prelude.html#v:span
 
-4. https://hackage.haskell.org/package/base-4.20.0.1/docs/Prelude.html#v:break
+1. https://hackage.haskell.org/package/base-4.20.0.1/docs/Prelude.html#v:break
