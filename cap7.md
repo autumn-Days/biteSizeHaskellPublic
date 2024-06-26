@@ -244,7 +244,6 @@ Redudante dizer, mas, apesar de só termos mostrado exemplos numéricos até ago
 ___
 ## Referências
 
-1. Apprenez la programmation fonctionnelle avec Haskell; 2.ed. Zeste de Savoir, 2019. p. 58-61
 1. Apprenez Haskell Language, RIP tutorial, 2019, p. 109-110
 1. Stotts, David. Overview of Lambda Calculus. Disponível em: https://www.cs.unc.edu/~stotts/723/Lambda/overview.html. Acesso em: 17/06/2024.
 
