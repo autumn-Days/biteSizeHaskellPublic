@@ -48,7 +48,7 @@ selectDivisibles divisor _list = filter (\a -> a `mod` divisor == 0) _list
 
 As funções anteriores serviram tão somente para que pudessemos sentir o aroma do `filter`, para que possamos sentir um pouco mais de emoção, podemos tentar implementar uma função que 
 
-> dado uma matriz $M_{n \times m}$, faça uma função `selectInOrder` que selecione todas as matrizes $M´_{1 \times m} \in M_{n \times m}$, de tal forma que, para cada elemento $m'_{1 \times j} \in M'_{1 \times m}$, $m'_{1 \times j} < m'_{1 \times j+1}$ 
+> dado uma matriz $M_{n \times m}$, faça uma função `selectInOrder` que selecione todas as matrizes $M´_{1 \times m} \in M_{n \times m}$, de tal forma que, para cada elemento $m'_{1 \times j} \in$ $M'_{1 \times m}$, $m'_{1 \times j} < m'_{1 \times j+1}$ 
 
 E, caso você não tenha entendido o enunciado da versão da questão da segunda chamada, permita-me apresentar a versãa da primeira chamada:
 
