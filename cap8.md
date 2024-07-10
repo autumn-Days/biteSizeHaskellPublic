@@ -39,8 +39,8 @@ selectDivisibles divisor _list = filter (\a -> a `mod` divisor == 0) _list
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz"
 ```
 ```haskell
-2.justLower = filter (\char -> char >= 'a' && char <= 'z') someCharacters
->>justLower
+2.justLowers = filter (\char -> char >= 'a' && char <= 'z') someCharacters
+>>justLowers
 "abcdefghijklmnopqrstuvwxyz"
 ```
 
