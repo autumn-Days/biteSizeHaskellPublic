@@ -159,11 +159,11 @@ Observe o seu funcionamento comparado a `transformaTodos`.
 
 Uma função anônima, ou uma função _lambda_, é um tipo de função que foi idealizada pelo matemático estadunidense Alonzo Church e que foi exportada da matemática para o mundo da ciência da computação com o advento das linguagens funcionais. 
 
-No contexto do haskell, existem apenas duas coisas que você precisa saber sobre este tipo de funções:
+No contexto do haskell, existem apenas duas coisas que você precisa saber sobre esse tipo de funções:
 
-1. Elas não tem nome, por isso, elas são ditas _anônimas_ e, uma vez que elas não tem nenhum tipo de identificador associado a elas, não é possível chamá-las multiplas vezes.<br><br>Portanto, todas as vezes que você desejar usar a mesma função anônima em diferentes partes do seu programa, você deverá redeclará-la, logo é bastante nítido que a utilização de funções anônimas só será benéfico em casos pontuais.<br><br>Por causa disto, o uso mais comum das funções lambda é no interior de outras funções para que elas possam servir como funções auxiliares.
+1. Elas não tem nome, por isso, elas são ditas _anônimas_ e, uma vez que elas não tem nenhum tipo de identificador associado a elas, não é possível chamá-las multiplas vezes.<br><br>Portanto, todas as vezes que você desejar usar a mesma função anônima em diferentes partes do seu programa, você deve redeclará-la, logo é bastante nítido que a utilização de funções anônimas só será benéfico em casos pontuais.<br><br>Por causa disto, o uso mais comum das funções lambda é no interior de outras funções para que elas possam servir como funções auxiliares.
 
-1. No trabalho original de Alonzo Church, as funções lambda eram expressas pela letra grega $\lambda$. <br><br>Deste modo, se você quisesse uma função que multiplicasse um número por 2, você precisaria fazer algo _parecido_ com isto: $\lambda x= x \times 2$. Você pode interpretar que "$\lambda$" é o símbolo utilizado para declarar uma função anônima e que "$x$" é o argumento que ela recebe. <br><br> Como seria muito inconveniente ter usar um caractere tão diferente quanto o "$\lambda$" para programar, os criadores do haskell optaram por expressá-las pelo caractere "\\", pois ele lembra um pouco um "$\lambda$" sem uma das pernas.
+1. No trabalho original de Alonzo Church, as funções lambda eram expressas pela letra grega $\lambda$. <br><br>Deste modo, se você quisesse uma função que multiplicasse um número por 2, você precisaria fazer algo _parecido_ com isto: $\lambda x= x \times 2$. Você pode interpretar que "$\lambda$" é o símbolo utilizado para declarar uma função anônima e que "$x$" é o argumento que ela recebe. <br><br> Como seria muito inconveniente ter que usar um caractere tão diferente quanto o "$\lambda$" para programar, os criadores do haskell optaram por expressá-las pelo caractere "\\", pois ele lembra um pouco um "$\lambda$" sem uma das pernas.
 
 ### 7.4.2 Exemplos
 
@@ -216,7 +216,7 @@ Que bom que você perguntou! Realmente não existe muito mistério, pois basta q
 2. add = \a b -> a+b
 ```
 
-No entanto, no contexto da função `map`, se quiséssemos usar uma função lambda $\lambda$ que operasse sobre mais de um valor, teríamos que passar uma tupla como argumento para $\lambda$, além de fornecer uma lista de tuplas para `map`. Isto se deve ao fato do `map` aplicar a operação de $\lambda$ em cada elemento da lista e, uma vez que, obviamente, cada elemento é unário, caso não estivéssemos trabalhando com tuplas, não seriam fornecidos argumentos suficientes para $\lambda$.
+No entanto, no contexto da função `map`, se quiséssemos usar uma função lambda $\lambda$ que operasse sobre mais de um valor, teríamos que passar uma tupla como argumento para $\lambda$, além de fornecer uma lista de tuplas para `map`. Isto se deve pelo fato do `map` aplicar a operação de $\lambda$ em cada elemento da lista e, uma vez que, obviamente, cada elemento é unário, caso não estivéssemos trabalhando com tuplas, não seriam fornecidos argumentos suficientes para $\lambda$.
 Observe o exemplo abaixo para entender melhor:
 
 ```haskell
@@ -228,7 +228,7 @@ Observe o exemplo abaixo para entender melhor:
 [5,1,8,16]
 ```
 
-Redudante dizer, mas, apesar de só termos mostrado exemplos numéricos até agora, é possível usar funções anônimas que trabalhem com outros tipos, como strings, por exemplo.
+Redudante dizer, mas, apesar de só termos mostrado exemplos numéricos até agora, é possível usar funções anônimas que trabalham com outros tipos, como strings, por exemplo.
 
 ```haskell
 1.transformWords someWords = map (\xs -> 'r':xs) someWords
