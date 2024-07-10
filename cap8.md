@@ -50,7 +50,7 @@ As funções anteriores serviram tão somente para que pudessemos sentir o aroma
 
 > dado uma matriz $M_{n \times m}$, faça uma função `selectInOrder` que selecione todas as matrizes $M´_{1 \times m} \in M_{n \times m}$, de tal forma que, para cada elemento $m^{'}_{1 \times j} \in$ $M'_{1 \times m}$, $m'_{1 \times j} < m'_{1 \times j+1}$ 
 
-E, caso você não tenha entendido o enunciado da versão da questão da segunda chamada, permita-me apresentar a versãa da primeira chamada:
+E, caso você não tenha entendido o enunciado da versão da questão da segunda chamada, permita-me apresentar a versãa da chamada regular:
 
 > dada uma lista de listas, faça uma função `selectInOrder` que seleciona as listas cujos elementos estão em ordem crescente.
 
