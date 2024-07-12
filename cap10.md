@@ -53,7 +53,7 @@ A porção mais a direita da expressão, no caso, `3+1` é avaliada primeiro e r
 
 ### 10.2.1 Motivação
 
-Na matemática, é possível que, dado uma função $f:A \shortrightarrow B$ e uma função $g:B \shortrightarrow C$, $f$ seja "passada como argumento" para $g$, uma vez que o contradomínio de $f$ corresponde ao domínio de $g$. Isto pode ser expresso por $g \circ f$ e é chamado de _função composta_.
+Na matemática, é possível que, dado uma função $f:A \rightarrow B$ e uma função $g:B \rightarrow C$, $f$ seja "passada como argumento" para $g$, uma vez que o contradomínio de $f$ corresponde ao domínio de $g$. Isto pode ser expresso por $g \circ f$ e é chamado de _função composta_.
 
 No haskell, não é novidade que isto seja possível, pois estamos fazendo isto já fazem nove capítulo. No entanto, ainda assim, este conceito pode ser bastante útil para nós. Imagine, por exemplo, que você tenha as duas funções abaixo:
 
